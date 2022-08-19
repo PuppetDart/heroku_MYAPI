@@ -1,5 +1,4 @@
 const express=require("express");
-const lodash=require("lodash");
 
 const app=express();
 app.get("/",(req,res)=>{
@@ -8,4 +7,4 @@ app.get("/",(req,res)=>{
     );
 })
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);

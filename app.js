@@ -155,7 +155,7 @@ var objArry =[
     "occupation": "Deadpool"
   }
 ];
-res.json(objArray);
+res.json(objArry);
 })
 
 app.listen(process.env.PORT || 3000);
